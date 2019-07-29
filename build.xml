@@ -1,5 +1,5 @@
 <project name="test" default="A" basedir=".">
-<target name="A">
+<target name="A" depends="B">
 <echo> Hi This is my first ANT script </echo>
 </target>
 <target name="B" >
