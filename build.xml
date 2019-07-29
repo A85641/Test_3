@@ -1,7 +1,9 @@
-<project name="Hello World Project" default="info">
- <property name="sitename" value="www.tutorialspoint.com"/>
- <target name="info">
- <echo>Apache Ant version is ${ant.version} - You are
- at ${sitename} </echo>
- </target>
+<project default="hello">
+<target name="hello">
+<echo message="Hello, World"/>
+</target>
+<target name="goodbye">
+<echo message="Goodbye, Cruel World"/>
+</target>
+<target name="all" depends="hello, goodbye" />
 </project>
