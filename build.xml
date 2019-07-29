@@ -1,9 +1,11 @@
-<project default="hello">
-<target name="hello">
-<echo message="Hello, World"/>
+<prject name="test" default="A" basedir="."
+<target name="A" >
+<echo> Hi This is my first ANT script </echo>
 </target>
-<target name="goodbye">
-<echo message="Goodbye, Cruel World"/>
+<target name="B" >
+<echo> Hi This is my first ANT script </echo>
 </target>
-<target name="all" depends="hello, goodbye" />
+<target name="C" >
+<echo> Hi This is my first ANT script </echo>
+</target>
 </project>
