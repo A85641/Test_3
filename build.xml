@@ -3,9 +3,9 @@
 <echo> Hi This is my first ANT script </echo>
 </target>
 <target name="B" >
-<echo> Hi This is my first ANT script </echo>
+<echo> Hi This is my second ANT script </echo>
 </target>
 <target name="C" >
-<echo> Hi This is my first ANT script </echo>
+<echo> Hi This is my third ANT script </echo>
 </target>
 </project>
