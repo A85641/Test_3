@@ -5,7 +5,7 @@
 <target name="B" depends="C">
 <echo> Hi This is my second ANT script </echo>
 </target>
-<target name="C" >
+<target name="C" depends="A,B" >
 <echo> Hi This is my third ANT script </echo>
 </target>
 </project>
