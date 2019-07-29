@@ -1,4 +1,3 @@
-<?xml version = "1.0"?>
 <project name = "fax" basedir = "." default = "build">
    <property name = "src.dir" value = "src"/>
    <property name = "web.dir" value = "war"/>
