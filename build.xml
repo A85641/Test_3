@@ -1,4 +1,4 @@
-<project name="test" default="A" basedir="."
+<project name="test" default="A" basedir=".">
 <target name="A"
 <echo> Hi This is my first ANT script </echo>
 </target>
